@@ -1,8 +1,8 @@
 {
   "name": "blendthatmarkup",
   "version": "1.0.0",
-  "description": "Tool for editing and updating html markup",
-  "main": "index.js",
+  "description": "Library for editing and updating parts of html markup",
+  "main": "lib/index.js",
   "scripts": {
     "test": "npm run build && mocha",
     "prepublish": "npm run build",
@@ -25,5 +25,13 @@
   },
   "dependencies": {
     "cheerio": "^0.20.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sirbrillig/blendthatmarkup.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sirbrillig/blendthatmarkup/issues"
+  },
+  "homepage": "https://github.com/sirbrillig/blendthatmarkup#readme"
 }
